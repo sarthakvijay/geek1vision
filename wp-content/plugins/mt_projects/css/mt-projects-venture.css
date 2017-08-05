@@ -1,0 +1,34 @@
+.home-project-image-bg {
+	height: 350px;
+	display:  table;
+	width: 33.33333%;
+	float: left;
+	background-position: center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+	-o-background-size: cover; 
+	background-size: cover;
+}
+
+.home-project-image-bg span {
+	display: table-cell; 
+	vertical-align: middle;
+	padding: 10px;
+	text-align:center; 
+}
+
+.home-project-image-bg span h5 { 
+	margin: 0;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	border: 5px solid #fff;
+} 
+
+
+@media handheld, only screen and (max-width: 750px) {
+	.home-project-image-bg {
+		width: 100%;
+	}
+} 

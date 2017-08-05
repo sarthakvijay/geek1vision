@@ -1,0 +1,40 @@
+#mt-work {
+	margin-bottom: 30px;
+}
+
+#mt-work .work-item {
+	font-size: 13px;
+	margin-bottom: 20px; 
+}
+
+#mt-work .work-item h5 {
+	font-size: 17px;
+	font-weight:bold; 
+	margin-bottom: 15px;
+}
+
+#mt-work .work-item {
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.work-item {
+	position: relative;
+} 
+
+h5 span.date {  
+	float:right;
+	padding:0;
+}
+
+.work-item h6 {
+	color: #aaaaaa;
+	font-size:15px;
+	margin-bottom: 15px; 
+}
+
+.work-item > p,
+.work-item > h5 {   
+	margin-top: 0;
+	margin-bottom: 5px;
+}

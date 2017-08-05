@@ -1,0 +1,189 @@
+/*body
+ {
+     
+}
+
+*/
+
+#newsletterform 
+{
+    font-family: 'Montserrat', Helvetica Neue, Helvetica, arial, sans-serif;
+   
+     margin: 0 auto;
+    
+     max-width: 780px;
+    
+    min-width: 320px;
+   
+    display: block;
+    
+text-align: center;
+    
+letter-spacing: 1px;
+  
+  position: relative;
+
+  background-color: #FFFFFF;
+}
+
+
+
+#newsletterform .wrap {
+    
+padding: 50px 40px;
+}
+
+
+
+#newsletterform h3 {
+    
+font-family: 'Montserrat', Helvetica Neue, Helvetica, arial, sans-serif;
+    
+display: block;
+    font-size:30px;
+    
+font-weight:bold;
+    line-height:1.2;
+    
+color:black;
+        
+text-align: center;
+       
+margin: 0 auto 15px auto;
+    
+font-size: 28px;
+    
+width:90%;
+}
+
+
+
+#newsletterform p {
+    
+font-size:20px;
+font-weight: bold;
+    
+line-height:26px;
+    
+margin-bottom:25px;
+    
+color:#000000;
+}
+
+
+
+#newsletterform input {
+    
+font-family: 'Montserrat', Helvetica Neue, Helvetica, arial, sans-serif;
+    
+font-size: 16px;
+    
+font-weight:400;
+    
+display: block;
+    
+width:80%;
+    
+background:#fff;
+    
+color:#888;
+   
+    
+text-align: center;
+    
+text-transform: uppercase;
+    
+margin: 0 auto 12px auto;
+    
+border:2px solid #000000;
+    
+outline:0;
+    
+border-radius: 3px;
+    
+-webkit-box-sizing: border-box;
+    
+-moz-box-sizing: border-box;
+    
+box-sizing: border-box;
+}
+
+
+
+#newsletterform input:focus {
+    border:2px solid #ddd;
+}
+
+#newsletterform input[type="submit"] {
+    background:#f77156;
+    color:#grey;
+    width: 60%;
+	font-size: 16px;
+    cursor: pointer;
+    margin-bottom:0;
+    border:none;
+}
+
+#newsletterform input[type="submit"]:hover {
+    background:#888;
+    color:#444;
+}
+
+#newsletterform .arrow {
+    display: inline-block;
+    background: url("../images/arrow.png") no-repeat;
+    width: 139px;
+    height: 48px;
+    position: absolute;
+    left: 120px;
+    top: 290px;
+}
+
+#newsletterform #response {
+    color: #fff;
+    font-size: 1.4em;
+    height: 25px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    width: 320px;
+}
+
+#newsletterform #response p {
+    margin: 0
+}
+
+#newsletterform .loading {
+    background: url("../images/loading.gif") no-repeat center 20px;
+}
+
+@media only screen and (max-width:769px) {
+
+    #newsletterform .wrap {
+        padding: 40px 25px;
+    }
+
+    #newsletterform .arrow {
+        display: none;
+    }
+
+    #newsletterform input {
+        width: 100%;
+        margin-bottom: 7px;
+    }
+
+   
+ #newsletterform input[type="submit"] {
+        width: 100%;
+        padding: 16px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    #newsletterform h3 {
+        width: 100%;
+    }
+
+}

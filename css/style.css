@@ -1,0 +1,183 @@
+body {
+    font-size: 62.5%;
+   
+}
+
+#newsletterform {
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    max-width: 780px;
+    min-width: 180px;
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+#newsletterform .wrap {
+    padding: 25px 20px;
+}
+
+#newsletterform h3 {
+    font-family: 'Raleway', sans-serif;
+    display: block;
+    font-size:26px;
+    font-weight:400;
+    line-height:1.2;
+    color:#000;
+    text-transform: uppercase;
+    width:70%;
+}
+
+#newsletterform p {
+    font-size: 25px;
+    line-height:26px;
+    color:#000;
+}
+
+#newsletterform input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight:500;
+    display: block;
+    width: 70%;
+    background:#fff;
+    color:#888;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto 12px auto;
+    border:2px solid #000;
+    outline:0;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#newsletterform input:focus {
+   
+    border:2px solid #000;
+}
+
+#newsletterform input[type="submit"] {
+    background:#f77156;
+    color:#fff;
+    width:30%;
+    padding:13px;
+    cursor: pointer;
+    margin-bottom:0;
+    border:none;
+}
+
+#newsletterform input[type="submit"]:hover {
+    background:#F8CA4D;
+    color:#444;
+}
+
+
+#newsletterform #response {
+    color: #fff;
+    font-size: 1.4em;
+    height: 25px;
+    margin: 0 auto;
+    padding-top: 15px;
+    text-align: center;
+    width: 320px;
+}
+
+#newsletterform #response p {
+    margin: 0
+}
+
+
+
+@media only screen and (max-width:769px) {
+
+    #newsletterform .wrap {
+        padding: 20px 15px;
+    }
+
+    #newsletterform .arrow {
+        display: none;
+    }
+
+    #newsletterform input {
+        width: 100%;
+        margin-bottom: 7px;
+    }
+
+    #newsletterform input[type="submit"] {
+        width: 100%;
+        padding: 16px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    #newsletterform h3 {
+        width: 100%;
+    }
+
+}
+
+
+/* the overlayed element */
+.apple_overlay {
+
+/* initially overlay is hidden */
+    
+display:none;
+   
+/* growing background image */
+    
+background-image:url(transparent.jpg);
+
+    
+/*
+     width after the growing animation finishes
+      height is automatically calculated
+      */
+    
+width: 40%;
+
+    /* some padding to layout nested elements nicely  */
+    
+padding:35px;
+
+    /* a little styling */
+    
+font-size:11px;
+}
+
+
+
+/* default close button positioned on upper right corner */
+
+.apple_overlay .close {
+    
+background-image:url(close.png);
+    
+position:absolute; 
+right:5px; 
+top:5px;
+    
+cursor:pointer;
+    
+height:35px;
+   
+width:35px;
+}
+
+
+/* use a semi-transparent image for the overlay */
+  #overlay {
+    background-image:url(transparent.jpg);
+    color:#808080;
+    height:450px;}
+
+  /* container for external content. uses vertical scrollbar, if needed */
+  div.contentWrap {
+    height:441px;
+    overflow-y:auto;}

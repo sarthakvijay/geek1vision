@@ -1,0 +1,60 @@
+#home-works h3, #mt-projects-luna h3 {
+	text-align: center;
+	font-size: 15px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+}
+
+.single-work {
+	background: #fff;
+	margin-bottom: 35px;
+}
+
+.single-work span {
+	padding: 20px;
+	display: block;
+}
+
+.single-work span h5 {
+	margin-bottom: 1em;
+}
+
+.single-work span h5 a {
+	color: #404040;  
+}
+
+.single-work span h5 a:hover {
+	color: #666;  
+}
+
+.single-work span h6 {
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	margin-bottom: 1em;
+}
+
+.work-preview { 
+	height: 150px;
+	background-position: center center;
+	background-size: cover;
+	display: block;
+} 
+
+
+#mt-projects-luna > .grid
+ {
+	min-width: 0;
+}
+
+.home-widget #mt-projects-luna > .grid {
+	max-width: none;
+}
+
+#mt-projects-luna > .grid-pad   
+
+{
+	padding: 0; 
+}

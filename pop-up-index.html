@@ -1,0 +1,42 @@
+
+  <script src="jquery.tools.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="overlay-apple.css">
+
+</head>
+<body><!-- external page is given in the href attribute (as it should be) -->
+<a  rel="#overlay" style="text-decoration:none">
+  <!-- remember that you can use any element inside the trigger -->
+  <button type="button">Overlay Button</button>
+</a>
+<!-- overlayed element -->
+<div class="apple_overlay" id="overlay">
+  
+   <div id="newsletterform">
+            <div class="wrap">
+             <p>JOIN US TODAY</p>
+              <p >Subscribe to our weekly newsletter  </p>
+
+                <form action="send.php" method="post" id="newsletter" name="newsletter">
+                    <input type="email" name="signup-email" id="signup-email" value="" placeholder="Enter Email Here" />
+                    <input type="submit" value="Subscribe" name="signup-button" id="signup-button">
+                </form>
+                <div id="response"></div>
+            </div>
+        </div>
+
+  <div class="contentWrap">
+  <!-- external content-->
+   <a class="close"><img src="close.png" />  </a>
+  
+
+<!-- external content-->
+  </div>
+</div>
+<!-- make all links with the 'rel' attribute open overlays -->
+<script type='text/javascript' src="js/pop-up-js.js"></script>
+
+
+
+</body>

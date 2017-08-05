@@ -1,0 +1,72 @@
+
+
+progress {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+.skills-info ul {
+    padding: 0;
+	margin: 0;
+}
+
+.skills-info ul li {
+    list-style: none outside none; 
+    margin-bottom: 5px;
+}
+
+.skills-bg span {
+    
+    display: table;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.skill1, .skill2, .skill3, .skill4, .skill5 {
+    transition: all 0.7s ease-in-out 0s;
+    width: 0;
+}
+
+.skills-info p {
+  font-size: 13px;
+  margin-bottom: 1px !important; 
+  text-align: left;
+  max-width: 100%;
+}
+
+.skills-info p span {  
+    float: right;
+}
+
+.skills-p p {
+    text-align:left;
+	font-size:16px;
+}
+
+.skills-info { display:block; margin-bottom: 20px; } 
+
+/* Progress bars */
+
+.progressBar { 
+	width: 100%;
+	max-width: 500px;
+	height: 22px;
+	background-color: #dddddd;
+}
+			
+.progressBar div {
+	height: 100%;
+	color: #ffffff; 
+	text-align: right;
+	line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+	width: 0;
+	background-color: #000000; 
+} 
+
+@media handheld, only screen and (max-width: 767px) {
+	
+	.progressBar { width: 100%; }  
+	 
+}
